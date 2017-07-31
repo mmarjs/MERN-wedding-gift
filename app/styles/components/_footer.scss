@@ -1,0 +1,20 @@
+.footer{
+		background: $footer-background;
+		text-align: left;
+		bottom: 0;
+		position: relative;
+		width: 100% !important;
+		padding: 5em 5em 5em 5em;
+		color: red;
+		h3{
+			text-align: left;
+			top: 0;
+		}
+}
+.copyright {
+			text-align: center;
+			color: rgba(128, 128, 128, 0.75);
+			font-size: 1em;
+			cursor: default;
+			padding-top: 2em;
+}

@@ -1,0 +1,109 @@
+.product-list {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.product-list__item {
+    list-style: none;
+    width: 32%;
+}
+
+
+.Side-menu-custom {
+  padding: 1em 1em 1em 1em;
+  margin-left: 1em;
+  background-color: #f6f6f6;
+	  .divider {
+
+	    font-weight: 600;
+
+	  }
+
+.item {
+    padding-left: 1.5em;
+     padding-top: 1em;
+
+	    &.item-level-1 .item-label {
+
+	    }
+
+	    &.item-level-2 .item-label {
+
+	    }
+	  }
+	}
+
+  .side-nav.default-theme {
+      background-color: $light-grey;
+      color: black;
+  }
+
+  .side-nav-item.active .side-nav-item.expanded{
+    background-color: $light-grey;
+    color: black;
+  }
+
+  .side-nav-item-title{
+    color: black;
+  }
+
+  .side-nav .side-nav-item .side-nav-item-children{
+    background-color: $light-grey;
+  }
+
+  .side-nav.default-theme .side-nav-item-link, .side-nav.default-theme .side-nav-item-title {
+color: black;
+}
+
+.product_desc_sidebar{
+  background-color: $light-grey;
+  height: 50rem;
+  position: absolute;
+  .circle-picker{
+    width: 152px !important;
+    margin-left: 2.5em;
+
+  }
+}
+
+.Select-control{
+  background-color: $light-grey !important;
+  border: none !important;
+  width: 70% !important;
+  margin-left: 25px !important;
+}
+
+.side-nav.default-theme .side-nav-item-link, .side-nav.default-theme .side-nav-item-title {
+  font-weight: 400;
+}
+
+.product_desc_sidebar .circle-picker{
+  height: 10px;
+}
+
+.rangeslider-horizontal .rangeslider__handle {
+     width: 0px !important;
+     height: 0px !important;
+    border-radius: 0px !important;
+    top: -10px !important;
+}
+
+.rangeslider .rangeslider__handle {
+  box-shadow: none !important;
+}
+
+.rangeslider-horizontal .rangeslider__fill{
+  background-color: #f2e6df !important;
+}
+
+.rangeslider-horizontal .rangeslider__handle:after{
+      background-color: #efd1d1 !important;
+      box-shadow: none;
+}
+
+.rangeslider, .rangeslider .rangeslider__fill{
+  box-shadow: none;
+}

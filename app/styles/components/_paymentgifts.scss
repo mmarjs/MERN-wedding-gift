@@ -1,0 +1,39 @@
+.pgtext{
+  margin-top: 0.2em;
+  border: 1px solid black;
+  height: 200px;
+  box-shadow: none;
+  width: 60%;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.pgtextright{
+  margin-top: 0.2em;
+  border: 1px solid black;
+  background: $light-grey;
+  height: 200px;
+  box-shadow: none;
+  width: 60%;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.paymentgiftsleft{
+  padding-left: 20%;
+  padding-top: 2%;
+
+}
+
+.paymentgiftsright{
+  background-color: $light-grey;
+  height: 50em;
+  padding-top: 2%;
+  padding-left: 5%;
+
+  .text{
+    width: 60%;
+    height: 10%;
+    background-color: $light-grey;
+  }
+}

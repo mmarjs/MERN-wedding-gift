@@ -1,0 +1,31 @@
+.top-bar{
+  background-color: $nav-background;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  box-shadow: 0 6px 4px -4px rgba(0,0,0,.3);
+  z-index: 100;
+  //overflow: hidden;
+//  padding: 1em 0 1em 0;
+}
+
+.top-bar menu{
+
+}
+.top-bar ul  {
+  background-color: $nav-background;
+  color: $menu-color;
+  margin-top: 2em !important;
+}
+
+.top-bar li a:not(.button) {
+    color: $menu-color !important;
+}
+
+.top-bar li a:not(.button):hover {
+    color: $menu-color-hover !important;
+}
+
+.top-bar li a:not(.button):focus {
+    color: $menu-color-hover !important;
+}

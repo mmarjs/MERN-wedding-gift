@@ -1,0 +1,45 @@
+.conbutton{
+  border-radius: 1000px;
+  width: 105px;
+  height: 35px;
+  background-color: #58b9b0;
+  color: white;
+}
+
+.edit{
+  opacity: 0;
+}
+.cartitem:hover {
+  .edit{
+    opacity: 1;
+  }
+}
+
+.giftbutton{
+  border-radius: 0px !important;
+  padding-bottom: 10px
+}
+
+.Side-menu-custom1 {
+  padding: 1em 1em 1em 1em;
+  margin-left: 1em;
+  background-color: #ffffff;
+	  .divider {
+
+	    font-weight: 600;
+
+	  }
+
+.item {
+    padding-left: 1.5em;
+     padding-top: 1em;
+
+	    &.item-level-1 .item-label {
+
+	    }
+
+	    &.item-level-2 .item-label {
+
+	    }
+	  }
+	}

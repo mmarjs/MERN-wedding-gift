@@ -1,0 +1,24 @@
+.product {
+    margin: 0;
+    overflow: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.product__price {
+    display: inline-block;
+    line-height: 34px;
+}
+
+.product__button-wrap {
+    float: right;
+}
+
+.caption{
+  text-align: center;
+  .product__price{
+    color:$green-text;
+    font-size: 20px;
+  }
+
+}

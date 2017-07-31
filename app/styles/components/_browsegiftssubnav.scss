@@ -1,0 +1,50 @@
+.browsegiftssubnav{
+  background-color: #f2f2f2;
+  height: 3em;
+
+  padding-left: 2em;
+
+  .sub-menu{
+      font-family: Julius Sans One;
+      font-size: 16px;
+
+  }
+}
+
+.browsegiftsmenu .rc-menu-horizontal{
+  background-color: #fefefe;
+}
+
+.browsegiftsmenu {
+  color: $menu-color;
+  margin-left: 12%;
+  margin-right: 10%;
+  border-bottom: 1.5px solid #f1e5de;
+
+}
+
+.menutext{
+
+    padding-left: 90px;
+    padding-top: 20px;
+  //  color: white !important;
+
+}
+
+.browsegiftsmenu .rc-menu-item{
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+
+}
+.browsegiftsmenu li a:not(.button) {
+    color: $menu-color !important;
+
+}
+
+.browsegiftsmenu li a:not(.button):hover {
+    color: #e0b2a1 !important;
+}
+
+.browsegiftsmenu li a:not(.button):focus {
+    color: #e0b2a1 !important;
+}

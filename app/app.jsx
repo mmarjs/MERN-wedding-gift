@@ -1,0 +1,4 @@
+import React from 'react';var ReactDOM = require('react-dom');import {Route, Router, IndexRoute, browserHistory} from 'react-router';import OurStory from 'OurStory';import Wishlist from 'Wishlist';import Main from 'Main';import NavLogin from 'NavLogin';import NavLogout from 'NavLogout';import HomePage from 'HomePage';//import Login from 'Login';import Publish from 'Publish';import router from 'app/router/';var store = require('configureStore').configure();var {Provider} = require('react-redux');require('style!css!foundation-sites/dist/css/foundation.min.css');$(document).foundation();require('style!css!sass!applicationStyles');ReactDOM.render(<Provider store={store}>
+  {router}
+</Provider>,
+  document.getElementById('app'));

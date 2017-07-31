@@ -1,0 +1,81 @@
+.sub-bar{
+  background-color: $sub-nav-background;
+  //position: sticky;
+  width: 100%;
+  height: 3em;
+//  box-shadow: 0 6px 4px -4px rgba(0,0,0,.3);
+  padding-top: 1em;
+  text-align: center;
+
+  .sub-menu{
+      font-family: Julius Sans One;
+      font-size: 16px;
+
+  }
+
+  //overflow: hidden;
+//  padding: 1em 0 1em 0;
+}
+
+.sub-bar1{
+  background-color: $sub-nav-background;
+  //position: sticky;
+  width: 100%;
+  height: 3em;
+//  box-shadow: 0 6px 4px -4px rgba(0,0,0,.3);
+  text-align: center;
+
+  .sub-menu{
+      font-family: Julius Sans One;
+      font-size: 16px;
+
+  }
+
+  //overflow: hidden;
+//  padding: 1em 0 1em 0;
+}
+
+.settingslogo{
+  width: 60px;
+//  height: 60px;
+}
+
+.label, .label.primary {
+    background: #f2f2f2;
+    color: #22bb5b;
+    font-weight: bold;
+}
+
+.row{
+	max-width: 100%;
+}
+
+.sub-bar ul  {
+  background-color: $nav-background;
+  color: $menu-color;
+}
+
+.sub-bar li a:not(.button) {
+    color: $menu-color !important;
+}
+
+.sub-bar li a:not(.button):hover {
+    color: $menu-color-hover !important;
+}
+
+.top-bar li a:not(.button):focus {
+    color: $menu-color-hover !important;
+}
+
+.sub-bar1 ul  {
+  background-color: $nav-background;
+  color: $menu-color;
+}
+
+.sub-bar1 li a:not(.button) {
+    color: $menu-color !important;
+}
+
+.sub-bar1 li a:not(.button):hover {
+    color: $menu-color-hover !important;
+}

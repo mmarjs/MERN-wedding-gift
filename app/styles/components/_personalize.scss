@@ -1,0 +1,32 @@
+.pertext{
+  margin-top: 3em;
+  border: 2px dashed $light-grey;
+  height: 200px;
+  box-shadow: none;
+  width: 80%;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.personalizeleft{
+  padding-left: 5%;
+  padding-top: 2%;
+}
+
+.personalizeright{
+  background-color: $light-grey;
+  height: 50em;
+  padding-top: 10%;
+  padding-left: 5%;
+
+  .text{
+    width: 80%;
+    height: 10%;
+    background-color: $light-grey;
+  }
+}
+
+.date{
+  background: $light-grey;
+  text-align: center;
+}

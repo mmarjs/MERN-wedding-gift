@@ -1,0 +1,144 @@
+.ourstory{
+  background-color: #f2f2f2;
+  height: 450px;
+
+
+}
+
+.bridegroom_ourstory{
+  align-items: center;
+  text-align: center;
+  margin-left: 50%;
+   margin-right: 50%;
+
+}
+
+h6{
+  margin: 1em;
+  text-align: center;
+  color: $grey;
+  font-family: Julius Sans One;
+}
+
+.gallery{
+  position: sticky;
+    margin: 2em auto;
+    text-align: center;
+    align-content: center;
+}
+
+.thankyou{
+  height: 300px;
+  text-align: center;
+  align-content: center;
+  margin-top: 5%;
+}
+
+.storytextbride{
+  margin-top: 0.2em;
+  border: 2px dashed $text-border;
+  height: 200px;
+  box-shadow: none;
+  width: 60%;
+  text-align: center;
+  padding-top: 3%;
+  margin-left: 40%;
+  color: $text-border;
+}
+
+.storytextgroom{
+  margin-top: 0.2em;
+  border: 2px dashed $text-border;
+  height: 200px;
+  box-shadow: none;
+  width: 60%;
+  text-align: center;
+  padding-top: 3%;
+  color: $text-border;
+}
+
+.storytextcouple{
+  margin-top: 0.2em;
+  border: 2px dashed $text-border;
+  height: 200px;
+  box-shadow: none;
+  width: 60%;
+  text-align: center;
+  padding-top: 3%;
+  margin-left: 20%;
+  color: $text-border;
+}
+
+.schedule{
+  background-image: url("../images/schedulebackground.png");
+  height: 450px;
+  padding-top: 2em;
+
+  h4{
+    font-family: Sacramento;
+    color:#58b9b0;
+    margin-top: 1em;
+    border: 2px dashed $text-border;
+    width: 15%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 42%;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .venue{
+    font-family: Raleway;
+    margin-top: 1em;
+    border: 2px dashed $text-border;
+    width: 25%;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 24%;
+    font-size: 24px;
+  }
+  .venuedate{
+    font-family: Raleway;
+    margin-top: 1em;
+    border: 2px dashed $text-border;
+    width: 25%;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    margin-left: 2%;
+    float: left !important;
+  }
+}
+
+.dropzone .dz-preview .dz-progress{
+  opacity: 0;
+}
+.dropzone .dz-preview .dz-image img{
+  width: 350px;
+  height: 350px;
+}
+
+.dropzone .dz-preview .dz-image{
+  width: 350px;
+  height: 350px;
+  border-radius: 0px;
+}
+
+.dropzone .dz-preview{
+  margin:5px;
+}
+
+.div.filepicker{
+  width: 80%;
+  margin-left: 10%;
+}
+
+.dropzone .dz-preview:hover .dz-image img{
+  filter: blur(0px);
+}
+
+.dropzone .dz-preview .dz-details{
+  z-index: 0;
+}
